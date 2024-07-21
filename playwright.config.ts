@@ -12,7 +12,7 @@ export default defineConfig({
     baseURL: 'https://www.saucedemo.com/',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
-    headless: false,
+    headless: true,
   },
 
   /* Configure projects for major browsers */
