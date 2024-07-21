@@ -30,5 +30,5 @@ To run the project, use the following command:
 ```bash
 npx playwright test
 
-Directly executed via Github Actions
+Directly executed via Github Actions [https://github.com/like-thrill/assignment/actions]
 ```
