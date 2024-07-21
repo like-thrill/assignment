@@ -29,4 +29,6 @@ Automation framework for UI using Playwirght and Typescript
 To run the project, use the following command:
 ```bash
 npx playwright test
+
+Directly executed via Github Actions
 ```
