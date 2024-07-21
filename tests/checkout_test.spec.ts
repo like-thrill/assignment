@@ -37,7 +37,8 @@ test(`Customer random ${items} item(s) checkout flow`, async ({page} )=> {
     await cart.verifyAddedItemsAndMovetoCheckOut(selectedItems)
 
     //Fill checkout information
-    await checkout.fillPersonalInformationsAndContinue("Himanshu","Chaudhary","201302")
+    await checkout.fillPersonalInformationsAndContinue(
+        GlobalConstants.FNAME,GlobalConstants.LNAME, GlobalConstants.ZIP)
 
     //Verify successfully checkout
     await checkout.verifyOverviewAndFinish(selectedItems)
